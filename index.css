@@ -117,7 +117,7 @@ footer{
 .texto-heroe{
     display: flex;
     height: 100%;
-    
+    color: whitesmoke;
     align-items: center;
     flex-direction: column;
     position: absolute;
