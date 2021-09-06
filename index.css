@@ -1,0 +1,169 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #E9DDD4;
+}
+
+.header{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border: solid black;
+    background-color: #900020;
+    font-size: 1.4rem;
+    box-shadow: 1px 9px 6px 0px rgba(0,0,0,0.75);
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.navbar img{
+    width: 150px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.navbar a:hover{
+    color: #E9DDD4;
+    border-bottom: solid #E9DDD4;
+}
+
+#portada{
+    width: 100%;
+    height: 99vh;
+    margin: 0%;
+
+}
+
+.primera-seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+#portada2{
+    width: 100%;
+    height: 350px;
+}
+
+.segunda-seccion{
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes img{
+    width: 110px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+    border-top: solid black;
+}
+
+.titulo-heroes{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.heroes1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.heroe{
+    display: flex;
+    align-items: center;
+    border: solid black;
+    border-radius: 5%;
+    position: relative;
+}
+
+.heroe img{
+    width: 100%;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.texto-heroe{
+    display: flex;
+    height: 100%;
+    
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    opacity: 0;
+    transition: all 1s;
+    background: rgba(11,103,123,0.8);
+    border-radius: 5%;
+}
+
+
+.texto-heroe h2{
+    margin: 4px;
+}
+
+.texto-heroe p{
+    margin: 4px;
+}
+
+.texto-heroe:hover{
+    opacity: 1;
+}
+
+.texto-villano{
+    display: flex;
+    height: 100%;
+    color: whitesmoke;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    opacity: 0;
+    transition: all 1s;
+    background: rgba(105, 28, 9, 0.8);
+    border-radius: 5%;
+}
+
+
+.texto-villano h2{
+    margin: 4px;
+}
+
+.texto-villano p{
+    margin: 4px;
+}
+
+.texto-villano:hover{
+    opacity: 1;
+}
