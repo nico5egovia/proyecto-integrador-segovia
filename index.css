@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #E9DDD4;
+    background-color: #d1beb0;
 }
 
 .header{
@@ -90,7 +90,6 @@ footer{
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: 2%;
 }
 
 .heroes1{
@@ -166,4 +165,85 @@ footer{
 
 .texto-villano:hover{
     opacity: 1;
+}
+
+.fase{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.pelicula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pelicula img{
+    height: 350px;
+    border-radius: 5%;
+}
+
+.pelicula h2{
+    font-size: 1rem;
+}
+
+.ir-arriba{
+    text-align: center;
+    color:#900020;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.cuadro-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border: solid black;
+    width: 20%;
+    border-radius: 25px;
+    background: #ece0e3;
+    box-shadow: -3px 9px 19px 4px rgba(0,0,0,0.75);
+}
+
+.cuadro-login a{
+margin: 0%;
+}
+
+.cuadro-login img{
+    width: 150px;
+}
+
+.cuadro-login input, button{
+    margin-top: 8px;
+    padding: 3px;
+}
+
+.cuadro-login button{
+    width: 125px;
+}
+
+.cuadro-login a{
+    color: black;
+}
+
+.gifs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gifs img{
+    width: 220px;
 }
