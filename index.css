@@ -443,3 +443,13 @@ margin: 0%;
                 position: fixed;
                 z-index: 1;
             }
+
+            @media (max-width: 337px) {
+                .cuadro-login{
+                    width: 50%;
+                }
+                .gifs img{
+                    width: 50px;
+                    margin-top: 25px;
+                }
+            }
