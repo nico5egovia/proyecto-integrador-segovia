@@ -443,12 +443,21 @@ margin: 0%;
                 position: fixed;
                 z-index: 1;
             }
+            
+            #portada{
+                width: 100%;
+                height: 300px;
+            }
 
-            @media (max-width: 337px) {
-                .cuadro-login{
+            .redes a img{
+                width: 50px;
+            }
+            .cuadro-login{
                     width: 50%;
                 }
-                .gifs img{
+            
+            
+            .gifs img{
                     width: 50px;
                     margin-top: 25px;
                 }
