@@ -422,7 +422,7 @@ margin: 0%;
             z-index: 1;
         }
 
-        @media (max-width: 337px) {
+        @media (max-width: 400px) {
             .navbar{
                 display: flex;
                 margin: 0%;
